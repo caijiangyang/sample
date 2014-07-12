@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'mypages/index'
+
+  get 'mypages/test'
+
   get 'index/index'
 
   get 'static_pages/home'
